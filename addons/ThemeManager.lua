@@ -45,7 +45,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['bobdoors'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"161616","AccentColor":"ff9e9e","BackgroundColor":"212020","OutlineColor":"323232"}') },
+		['bobdoors'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"ff9e9e","BackgroundColor":"141414","OutlineColor":"323232"}') },
 	}
 
 	function ApplyBackgroundVideo(videoLink)
