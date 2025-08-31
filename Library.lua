@@ -154,7 +154,7 @@ local Library = {
     -- notification --
     Notify = nil;
     NotifySide = "Left";
-    ShowCustomCursor = true;
+    ShowCustomCursor = false; -- xeno and solara didnt show cursor
     ShowToggleFrameInKeybinds = true;
     NotifyOnError = false; -- true = Library:Notify for SafeCallback (still warns in the developer console)
 
